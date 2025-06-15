@@ -6,7 +6,6 @@ import uuid
 from flask import Flask, render_template, request, send_file, session
 from flask import redirect, url_for
 
-# app.py
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
